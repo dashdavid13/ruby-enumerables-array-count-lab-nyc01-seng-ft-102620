@@ -1,5 +1,5 @@
 def count_strings(array)
-  array.each do  |x|
+  array.count do  |x|
     if x == " "
       true 
     else 
