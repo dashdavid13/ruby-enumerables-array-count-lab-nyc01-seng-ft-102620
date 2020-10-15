@@ -1,7 +1,7 @@
 def count_strings(array)
   total = 0 
   array.count do  |x|
-    if array = " "
+    if x = " "
       total += 1 
     
   end 
